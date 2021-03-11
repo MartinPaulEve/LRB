@@ -1,5 +1,10 @@
 # London Review of Books Dataset
-This dataset contains book reviews from the London Review of Books vol 22 no. 1 to vol 44 no. 4. It was created by a scraper that attempts to pull out the name of who reviewed whom. This sometimes results in unparsed authors ("R.G. Collingwood, edited by Rex Martin") but in general it allows us to construct a network graph of reviewers.
+This dataset contains:
+
+1. book reviews from the London Review of Books vol 22 no. 1 to vol 43 no. 4 (the contemporary corpus);
+2. book reviews from the London Review of Books vol 1 no. 1 to vol 43 no. 6 (the full corpus);
+   
+It was created by a scraper that attempts to pull out the name of who reviewed whom. This sometimes results in unparsed authors ("R.G. Collingwood, edited by Rex Martin") but in general it allows us to construct a network graph of reviewers.
 
 The code is designed to detect circularity of reviews. E.g.:
 * J. Arch Getty reviewed Sheila Fitzpatrick in vol 22 num 5
